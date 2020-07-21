@@ -1,0 +1,49 @@
+strip of led, data line,
+each led has 24bit for colors
+run to fisrt 24, next 24 for next led to change led =>> so send out data serial base of wanted color
+
+
+
+data list mutil files -> put in array/linkedList/binaryTree -> sort as selection/quicksort/heapsort -> compute these in MultiThread style or not.
+
+
+measure time on run time 
+measure size memory usage
+
+
+
+
+Multithread Traffic 101
+---------------------------------------
+
+HTML5, CSS3, PHP, MySQL
+
+From User Input:
+1. How many car? ___
+
+2. Random traffic or user direction? (R/U) ____
+
+3. Direction of each cars ?
+	Car 1: approaching from ____ to ____
+
+ ---------------
+|Generate button|
+ ---------------
+
+
+--------------------------------------------
+Transfer file as JSON/XML.
+Linker from host to client.
+
+C++
+Result:
+Car 1 aprro from S to SE (Car1 SE)
+Car 2 app from W to SW (Car2 SW)
+Car 2 app from SW to SE (stalling)
+Car 1 app from SE to NE 
+Car 1 app
+
+
+
+
+
