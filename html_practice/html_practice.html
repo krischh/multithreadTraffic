@@ -1,4 +1,24 @@
 <!DOCTYPE html>
+
+<!-- you can define things here and make sure that they 
+     everytime you call something a tag it has those 
+     properties. in this case when <a> is called it will 
+     already have these properties-->
+<style>
+    a:link, a:visited {
+        background-color: lightcoral;
+        color: lightcyan;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    a:hover, a:active{
+        background-color: rgb(194, 31, 31);
+    }
+
+
+</style>
 <html lang="en-US">
     <body>
         <!-- <hn> is used to have different headings from n= 1-6 -->
@@ -27,17 +47,36 @@
         <p style="color:aquamarine">BUT the text will look PRETTY</p>
 
         <!-- <pre> does premade text aka keeps the format you put -->
-        <pre style="color: blueviolet;">
-        DONT you     worry    
-        BECUASE we   will have                                 <img src="CS-logo-MOOC.jpg" height="50" > 
+        <pre style="color: blueviolet; background-color:darkcyan; font-style: italic;">
+
+            DONT you     worry    
+                        BECUASE we   will have  <img src="CS-logo-MOOC.jpg" height="50" > 
 
         SOME cool formating to make it funnn
 
+        
+
+            <img src="https://image.shutterstock.com/image-photo/top-down-view-cars-traffic-600w-1296471406.jpg"></img>
 
         </pre>
 
-        
 
+
+        <!-- you can also chain various atributes in one tag to give it specific properties-->
+        <pre style="border-style: double; color: lawngreen; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: medium;"> 
+        We can even put fun borders because who doesnt like fancy borders???? 
+        <p style="font-size: large;">        
+        ..................................</p>
+        So we can really like this shittttt 
+        </pre>
+
+        <b>this is BOLD text</b>
+        <br>
+        <strong>This text is <abbr title="BAD ASS AS FUCK">BAAF</abbr> <sup>high text as well</sup>
+             when compared to the BOLD text above <sub> also low text</sub></strong>
+        
+        
 
 
     </body>
