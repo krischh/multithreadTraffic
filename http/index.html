@@ -7,13 +7,14 @@
 
 	<h1>Multithreading Traffic 101</h1>
 
-	<form action="action.php" method="GET">
+	<form id="inputs" action="#" method="GET">
 		<label for="numcar">How many cars?</label>
 		<input type="text" id="numcar" name="numcar" size="2" maxlength="2" required><br><br>
 		<label for="ru">Do you want to use random car direction generated or user defined direction? (R/U)</label>
 		<input type="text" id="ru" name="ru" size="1" maxlength="1" required><br><br>
-		<input type="submit" value="Generate"><br><br>
+		<input type="submit" value="Generate" onclick="printval()"><br><br>
 	</form>
+
 
 	<p>Click "Submit" to generate the program.</p> 
 	<p></p>
@@ -22,4 +23,22 @@
 	<a href="https://www.linkedin.com/in/krisna-chhouk/">Contributors K2</a>
 
 </body>
+<script>
+		function printval(){
+
+		
+		var numofcar = document.getElementById("numcar").value 
+		var carname = document.getElementById("numcar").name
+		var userval = document.getElementById("ru").value
+		var username = document.getElementById("ru").name
+		
+		document.write(document.getElementById("numcar").size)
+		document.write(carname)
+		document.write(numofcar)
+		document.write("")
+		document.write(username)
+		document.write(userval)
+
+		}
+</script>
 </html>
